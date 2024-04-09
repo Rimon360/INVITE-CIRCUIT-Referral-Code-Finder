@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86E46EFB2BC51DD1004C751A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E46EFA2BC51DD1004C751A /* AppDelegate.swift */; };
+		86E46EFF2BC51DD1004C751A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 86E46EFE2BC51DD1004C751A /* Base */; };
+		86E46F012BC51DD1004C751A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 86E46F002BC51DD1004C751A /* Icon.png */; };
+		86E46F032BC51DD1004C751A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 86E46F022BC51DD1004C751A /* Style.css */; };
+		86E46F052BC51DD1004C751A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 86E46F042BC51DD1004C751A /* Script.js */; };
+		86E46F072BC51DD1004C751A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E46F062BC51DD1004C751A /* ViewController.swift */; };
+		86E46F0A2BC51DD1004C751A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 86E46F092BC51DD1004C751A /* Base */; };
+		86E46F0C2BC51DD2004C751A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86E46F0B2BC51DD2004C751A /* Assets.xcassets */; };
+		86E46F152BC51DD3004C751A /* INVITE CIRCUIT | Referral Code Finder Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 86E46F142BC51DD3004C751A /* INVITE CIRCUIT | Referral Code Finder Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		86E46F1A2BC51DD3004C751A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E46F192BC51DD3004C751A /* SafariWebExtensionHandler.swift */; };
+		86E46F2D2BC51DD3004C751A /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 86E46F272BC51DD3004C751A /* background.js */; };
+		86E46F2E2BC51DD3004C751A /* audio in Resources */ = {isa = PBXBuildFile; fileRef = 86E46F282BC51DD3004C751A /* audio */; };
+		86E46F2F2BC51DD3004C751A /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 86E46F292BC51DD3004C751A /* icons */; };
+		86E46F302BC51DD3004C751A /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 86E46F2A2BC51DD3004C751A /* style.css */; };
+		86E46F312BC51DD3004C751A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 86E46F2B2BC51DD3004C751A /* manifest.json */; };
+		86E46F322BC51DD3004C751A /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 86E46F2C2BC51DD3004C751A /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86E46F162BC51DD3004C751A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86E46EEF2BC51DD1004C751A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86E46F132BC51DD3004C751A;
+			remoteInfo = "INVITE CIRCUIT | Referral Code Finder Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86E46F222BC51DD3004C751A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				86E46F152BC51DD3004C751A /* INVITE CIRCUIT | Referral Code Finder Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		86E46EF72BC51DD1004C751A /* INVITE CIRCUIT | Referral Code Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "INVITE CIRCUIT | Referral Code Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E46EFA2BC51DD1004C751A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86E46EFE2BC51DD1004C751A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		86E46F002BC51DD1004C751A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		86E46F022BC51DD1004C751A /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		86E46F042BC51DD1004C751A /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		86E46F062BC51DD1004C751A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86E46F092BC51DD1004C751A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86E46F0B2BC51DD2004C751A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86E46F0D2BC51DD2004C751A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86E46F0E2BC51DD2004C751A /* INVITE_CIRCUIT___Referral_Code_Finder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "INVITE_CIRCUIT___Referral_Code_Finder.entitlements"; sourceTree = "<group>"; };
+		86E46F0F2BC51DD2004C751A /* INVITE CIRCUIT | Referral Code Finder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "INVITE CIRCUIT | Referral Code Finder.entitlements"; sourceTree = "<group>"; };
+		86E46F142BC51DD3004C751A /* INVITE CIRCUIT | Referral Code Finder Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "INVITE CIRCUIT | Referral Code Finder Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E46F192BC51DD3004C751A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		86E46F1B2BC51DD3004C751A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86E46F1C2BC51DD3004C751A /* INVITE_CIRCUIT___Referral_Code_Finder_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "INVITE_CIRCUIT___Referral_Code_Finder_Extension.entitlements"; sourceTree = "<group>"; };
+		86E46F272BC51DD3004C751A /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../Desktop/s1.8/background.js; sourceTree = "<group>"; };
+		86E46F282BC51DD3004C751A /* audio */ = {isa = PBXFileReference; lastKnownFileType = folder; name = audio; path = ../../Desktop/s1.8/audio; sourceTree = "<group>"; };
+		86E46F292BC51DD3004C751A /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../Desktop/s1.8/icons; sourceTree = "<group>"; };
+		86E46F2A2BC51DD3004C751A /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = style.css; path = ../../Desktop/s1.8/style.css; sourceTree = "<group>"; };
+		86E46F2B2BC51DD3004C751A /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../Desktop/s1.8/manifest.json; sourceTree = "<group>"; };
+		86E46F2C2BC51DD3004C751A /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../Desktop/s1.8/content.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86E46EF42BC51DD1004C751A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86E46F112BC51DD3004C751A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86E46EEE2BC51DD1004C751A = {
+			isa = PBXGroup;
+			children = (
+				86E46EF92BC51DD1004C751A /* INVITE CIRCUIT | Referral Code Finder */,
+				86E46F182BC51DD3004C751A /* INVITE CIRCUIT | Referral Code Finder Extension */,
+				86E46EF82BC51DD1004C751A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86E46EF82BC51DD1004C751A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86E46EF72BC51DD1004C751A /* INVITE CIRCUIT | Referral Code Finder.app */,
+				86E46F142BC51DD3004C751A /* INVITE CIRCUIT | Referral Code Finder Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86E46EF92BC51DD1004C751A /* INVITE CIRCUIT | Referral Code Finder */ = {
+			isa = PBXGroup;
+			children = (
+				86E46EFA2BC51DD1004C751A /* AppDelegate.swift */,
+				86E46F062BC51DD1004C751A /* ViewController.swift */,
+				86E46F082BC51DD1004C751A /* Main.storyboard */,
+				86E46F0B2BC51DD2004C751A /* Assets.xcassets */,
+				86E46F0D2BC51DD2004C751A /* Info.plist */,
+				86E46F0E2BC51DD2004C751A /* INVITE_CIRCUIT___Referral_Code_Finder.entitlements */,
+				86E46F0F2BC51DD2004C751A /* INVITE CIRCUIT | Referral Code Finder.entitlements */,
+				86E46EFC2BC51DD1004C751A /* Resources */,
+			);
+			path = "INVITE CIRCUIT | Referral Code Finder";
+			sourceTree = "<group>";
+		};
+		86E46EFC2BC51DD1004C751A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86E46EFD2BC51DD1004C751A /* Main.html */,
+				86E46F002BC51DD1004C751A /* Icon.png */,
+				86E46F022BC51DD1004C751A /* Style.css */,
+				86E46F042BC51DD1004C751A /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		86E46F182BC51DD3004C751A /* INVITE CIRCUIT | Referral Code Finder Extension */ = {
+			isa = PBXGroup;
+			children = (
+				86E46F262BC51DD3004C751A /* Resources */,
+				86E46F192BC51DD3004C751A /* SafariWebExtensionHandler.swift */,
+				86E46F1B2BC51DD3004C751A /* Info.plist */,
+				86E46F1C2BC51DD3004C751A /* INVITE_CIRCUIT___Referral_Code_Finder_Extension.entitlements */,
+			);
+			path = "INVITE CIRCUIT | Referral Code Finder Extension";
+			sourceTree = "<group>";
+		};
+		86E46F262BC51DD3004C751A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86E46F272BC51DD3004C751A /* background.js */,
+				86E46F282BC51DD3004C751A /* audio */,
+				86E46F292BC51DD3004C751A /* icons */,
+				86E46F2A2BC51DD3004C751A /* style.css */,
+				86E46F2B2BC51DD3004C751A /* manifest.json */,
+				86E46F2C2BC51DD3004C751A /* content.js */,
+			);
+			name = Resources;
+			path = "INVITE CIRCUIT | Referral Code Finder Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86E46EF62BC51DD1004C751A /* INVITE CIRCUIT | Referral Code Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86E46F232BC51DD3004C751A /* Build configuration list for PBXNativeTarget "INVITE CIRCUIT | Referral Code Finder" */;
+			buildPhases = (
+				86E46EF32BC51DD1004C751A /* Sources */,
+				86E46EF42BC51DD1004C751A /* Frameworks */,
+				86E46EF52BC51DD1004C751A /* Resources */,
+				86E46F222BC51DD3004C751A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86E46F172BC51DD3004C751A /* PBXTargetDependency */,
+			);
+			name = "INVITE CIRCUIT | Referral Code Finder";
+			productName = "INVITE CIRCUIT | Referral Code Finder";
+			productReference = 86E46EF72BC51DD1004C751A /* INVITE CIRCUIT | Referral Code Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86E46F132BC51DD3004C751A /* INVITE CIRCUIT | Referral Code Finder Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86E46F1F2BC51DD3004C751A /* Build configuration list for PBXNativeTarget "INVITE CIRCUIT | Referral Code Finder Extension" */;
+			buildPhases = (
+				86E46F102BC51DD3004C751A /* Sources */,
+				86E46F112BC51DD3004C751A /* Frameworks */,
+				86E46F122BC51DD3004C751A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "INVITE CIRCUIT | Referral Code Finder Extension";
+			productName = "INVITE CIRCUIT | Referral Code Finder Extension";
+			productReference = 86E46F142BC51DD3004C751A /* INVITE CIRCUIT | Referral Code Finder Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86E46EEF2BC51DD1004C751A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					86E46EF62BC51DD1004C751A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					86E46F132BC51DD3004C751A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 86E46EF22BC51DD1004C751A /* Build configuration list for PBXProject "INVITE CIRCUIT | Referral Code Finder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86E46EEE2BC51DD1004C751A;
+			productRefGroup = 86E46EF82BC51DD1004C751A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86E46EF62BC51DD1004C751A /* INVITE CIRCUIT | Referral Code Finder */,
+				86E46F132BC51DD3004C751A /* INVITE CIRCUIT | Referral Code Finder Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86E46EF52BC51DD1004C751A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E46F012BC51DD1004C751A /* Icon.png in Resources */,
+				86E46F052BC51DD1004C751A /* Script.js in Resources */,
+				86E46EFF2BC51DD1004C751A /* Base in Resources */,
+				86E46F032BC51DD1004C751A /* Style.css in Resources */,
+				86E46F0C2BC51DD2004C751A /* Assets.xcassets in Resources */,
+				86E46F0A2BC51DD1004C751A /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86E46F122BC51DD3004C751A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E46F322BC51DD3004C751A /* content.js in Resources */,
+				86E46F2F2BC51DD3004C751A /* icons in Resources */,
+				86E46F302BC51DD3004C751A /* style.css in Resources */,
+				86E46F312BC51DD3004C751A /* manifest.json in Resources */,
+				86E46F2D2BC51DD3004C751A /* background.js in Resources */,
+				86E46F2E2BC51DD3004C751A /* audio in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86E46EF32BC51DD1004C751A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E46F072BC51DD1004C751A /* ViewController.swift in Sources */,
+				86E46EFB2BC51DD1004C751A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86E46F102BC51DD3004C751A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E46F1A2BC51DD3004C751A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86E46F172BC51DD3004C751A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86E46F132BC51DD3004C751A /* INVITE CIRCUIT | Referral Code Finder Extension */;
+			targetProxy = 86E46F162BC51DD3004C751A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86E46EFD2BC51DD1004C751A /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86E46EFE2BC51DD1004C751A /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		86E46F082BC51DD1004C751A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86E46F092BC51DD1004C751A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86E46F1D2BC51DD3004C751A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86E46F1E2BC51DD3004C751A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		86E46F202BC51DD3004C751A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "INVITE CIRCUIT | Referral Code Finder Extension/INVITE_CIRCUIT___Referral_Code_Finder_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "INVITE CIRCUIT | Referral Code Finder Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "INVITE CIRCUIT | Referral Code Finder Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.INVITE-CIRCUIT---Referral-Code-Finder.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		86E46F212BC51DD3004C751A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "INVITE CIRCUIT | Referral Code Finder Extension/INVITE_CIRCUIT___Referral_Code_Finder_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "INVITE CIRCUIT | Referral Code Finder Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "INVITE CIRCUIT | Referral Code Finder Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.INVITE-CIRCUIT---Referral-Code-Finder.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		86E46F242BC51DD3004C751A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "INVITE CIRCUIT | Referral Code Finder/INVITE CIRCUIT | Referral Code Finder.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "INVITE CIRCUIT | Referral Code Finder/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "INVITE CIRCUIT | Referral Code Finder";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.INVITE-CIRCUIT---Referral-Code-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		86E46F252BC51DD3004C751A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "INVITE CIRCUIT | Referral Code Finder/INVITE CIRCUIT | Referral Code Finder.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "INVITE CIRCUIT | Referral Code Finder/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "INVITE CIRCUIT | Referral Code Finder";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.INVITE-CIRCUIT---Referral-Code-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86E46EF22BC51DD1004C751A /* Build configuration list for PBXProject "INVITE CIRCUIT | Referral Code Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E46F1D2BC51DD3004C751A /* Debug */,
+				86E46F1E2BC51DD3004C751A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86E46F1F2BC51DD3004C751A /* Build configuration list for PBXNativeTarget "INVITE CIRCUIT | Referral Code Finder Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E46F202BC51DD3004C751A /* Debug */,
+				86E46F212BC51DD3004C751A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86E46F232BC51DD3004C751A /* Build configuration list for PBXNativeTarget "INVITE CIRCUIT | Referral Code Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E46F242BC51DD3004C751A /* Debug */,
+				86E46F252BC51DD3004C751A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86E46EEF2BC51DD1004C751A /* Project object */;
+}
